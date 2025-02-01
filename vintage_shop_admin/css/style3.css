@@ -1,0 +1,128 @@
+/* General Container Styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Heading Styling */
+h1, h3 {
+    color: #333;
+    font-size: 24px;
+}
+
+/* Dashboard Button */
+a.dashboard-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+a.dashboard-link:hover {
+    background-color: #0056b3;
+}
+
+/* Success/Error Message */
+p {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+p[style*="color: green"] {
+    color: green;
+}
+
+p[style*="color: red"] {
+    color: red;
+}
+
+/* Order Form Styling */
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #218838;
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #007bff;
+    color: white;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table tr:hover {
+    background-color: #f1f1f1;
+}
+
+/* Update Order Status Form */
+form select, form button {
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+form button {
+    background-color: #007bff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+form {
+    display: inline;
+}
+
+form button {
+    padding: 5px 10px;
+}
+
+/* Delete Order Button */
+form button[type="submit"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+form button[type="submit"]:hover {
+    background-color: #c82333;
+}
